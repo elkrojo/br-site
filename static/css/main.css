@@ -18,6 +18,7 @@ body {
   left: 0;
   right: 0;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 li {
@@ -140,6 +141,12 @@ nav {
   text-align: right;
   letter-spacing: 0.5rem;
   padding-top: 30px;
+}
+
+/* Large Screen Homepage */
+
+.lg-home-page {
+  display: none;
 }
 
 /* Exhibitions */
@@ -346,10 +353,16 @@ form button {
 
 /* Media Queries */
 @media screen and (min-width: 900px) {
+
+  .wrapper {
+    display: flex;
+    margin: 80px 0px 0px 130px;
+  }
+
   nav {
     flex-direction: column;
     justify-content: left;
-    margin: 80px 0px 0px 130px;
+    
     /* flex-wrap: wrap; */
     width: 25vw;
     height: 50vh;
@@ -390,5 +403,33 @@ form button {
 
   .sm-screen-links {
     display: none;
+  }
+
+  .lg-home-page {
+    display: block;
+    width: 75vw;
+  }
+
+  .lg-home-page-exhibition-links {
+    margin: 30px 10px;
+  }
+
+  .exhibition-link {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .exhibition-link-label {
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  #sin-corner-homepage-link {
+    background-image: url(../img/exhibitions/01-sin-corner/sin-corner-01.jpg);
   }
 }
