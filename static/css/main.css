@@ -387,4 +387,8 @@ form button {
   .full-screen-links {
     display: block;
   }
+
+  .sm-screen-links {
+    display: none;
+  }
 }
