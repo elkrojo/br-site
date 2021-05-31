@@ -84,8 +84,8 @@ nav {
   letter-spacing: 0.5rem;
   position: absolute;
   right: 0px;
-  height: 85vh;
-  top: 15vh;
+  height: 88vh;
+  top: 12vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -126,15 +126,15 @@ nav {
 
 /* Mobile Homepage */
 
-.m-home-page {
+.sm-home-page {
   margin: 30px 10px 0 10px;
 }
 
-.m-home-page-image img {
+.sm-home-page-image img {
   width: 100%;
 }
 
-.m-home-page-menu ul li {
+.sm-home-page-menu ul li {
   font-size: 1.5rem;
   font-weight: 300;
   text-align: right;
@@ -380,7 +380,7 @@ form button {
     display: none;
   }
 
-  .m-home-page {
+  .sm-home-page {
     display: none;
   }
 
