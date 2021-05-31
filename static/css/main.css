@@ -120,6 +120,10 @@ nav {
   transform: translateX(0%);
 }
 
+.full-screen-links {
+  display: none;
+}
+
 /* Mobile Homepage */
 
 .m-home-page {
@@ -378,5 +382,13 @@ form button {
 
   .burger {
     display: none;
+  }
+
+  .m-home-page {
+    display: none;
+  }
+
+  .full-screen-links {
+    display: block;
   }
 }
