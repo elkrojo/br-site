@@ -364,7 +364,7 @@ form button {
     justify-content: left;
     
     /* flex-wrap: wrap; */
-    width: 25vw;
+    min-width: 25vw;
     height: 50vh;
     align-items: flex-start;
   }
@@ -412,6 +412,9 @@ form button {
 
   .lg-home-page-exhibition-links {
     margin: 30px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 90px;
   }
 
   .exhibition-link {
@@ -429,7 +432,41 @@ form button {
     width: 100%;
   }
 
+  .exhibition-link-label h1 {
+    padding-left: 30px;
+  }
+
   #sin-corner-homepage-link {
     background-image: url(../img/exhibitions/01-sin-corner/sin-corner-01.jpg);
   }
+
+  #old-and-weary-homepage-link {
+    background-image: url(../img/exhibitions/02-old-and-weary/old-and-weary-01.jpg);
+  }
+
+  #breath-homepage-link {
+    background-image: url(../img/exhibitions/03-breath/breath-01.jpg);
+  }
+
+  #dust-homepage-link {
+    background-image: url(../img/exhibitions/04-dust/dust-01.jpg);
+  }
+
+  #graft-homepage-link {
+    background-image: url(../img/exhibitions/05-graft/graft-01.jpg);
+  }
+
+  #essays-homepage-link {
+    background-image: url(../img/exhibitions/06-essays/essays-banner.jpg);
+  }
+
+  .gallery-name {
+    margin-top: 30px;
+  }
+
+  #contact-form {
+    margin-top: 240px;
+    width: 33%;
+  }
+
 }
