@@ -383,6 +383,7 @@ form button {
     align-items: flex-start;
     transform: none;
     transition: none;
+    top: 90px;
   }
 
   .nav-links li {
@@ -413,12 +414,14 @@ form button {
   .lg-home-page-exhibition-links {
     margin: 30px 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
     row-gap: 90px;
+    column-gap: 10px;
   }
 
   .exhibition-link {
-    height: 200px;
+    height: 240px;
+    /* width: auto; */
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -426,9 +429,9 @@ form button {
 
   .exhibition-link-label {
     background-color: #000;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0; */
     width: 100%;
   }
 
