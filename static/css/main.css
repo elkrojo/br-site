@@ -362,7 +362,8 @@ form button {
   nav {
     flex-direction: column;
     justify-content: left;
-    
+    margin: 0;
+    padding: 30px 10px;
     /* flex-wrap: wrap; */
     min-width: 25vw;
     height: 50vh;
@@ -388,6 +389,7 @@ form button {
 
   .nav-links li {
     opacity: 1;
+    text-transform: uppercase;
   }
 
   .burger {
@@ -414,13 +416,13 @@ form button {
   .lg-home-page-exhibition-links {
     margin: 30px 10px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, min(400px));
     row-gap: 90px;
-    column-gap: 10px;
+    column-gap: 12px;
   }
 
   .exhibition-link {
-    height: 240px;
+    height: 260px;
     /* width: auto; */
     background-repeat: no-repeat;
     background-size: contain;
@@ -436,7 +438,8 @@ form button {
   }
 
   .exhibition-link-label h1 {
-    padding-left: 30px;
+    padding: 12px 0px 12px 30px;
+    text-transform: uppercase;
   }
 
   #sin-corner-homepage-link {
@@ -465,6 +468,11 @@ form button {
 
   .gallery-name {
     margin-top: 30px;
+  }
+
+  .gallery-container {
+    width: 75vw;
+    margin: 0;
   }
 
   #contact-form {
